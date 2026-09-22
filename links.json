@@ -1,0 +1,2880 @@
+[
+  {
+    "url": "https://github.com/openai/gpt-2",
+    "title": "GPT-2",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "OpenAI's 2019 weight-and-code release for GPT-2; the repo is archived, and later GPT models were not released this way.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://github.com/EleutherAI/gpt-neo",
+    "title": "GPT-Neo",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "Archived EleutherAI code for GPT-2- and GPT-3-style models, MIT-licensed, from the effort that made open GPT reproductions a research project.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+    "title": "GPT-J-6B",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "EleutherAI's 6B checkpoint, Apache-2.0, trained with the mesh-transformer-jax codebase and widely used before Llama.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/EleutherAI/gpt-neox-20b",
+    "title": "GPT-NeoX-20B",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "EleutherAI's 20B checkpoint, Apache-2.0; the training stack is the separate gpt-neox repo.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://github.com/EleutherAI/pythia",
+    "title": "Pythia",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "Apache-2.0 suite of models trained in public so scaling and training dynamics can be compared on the same data order.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://huggingface.co/bigscience/bloom",
+    "title": "BLOOM",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "BigScience's 176B multilingual model under the BigScience RAIL license, which is open access with use restrictions, not Apache-2.0 or MIT.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://huggingface.co/facebook/opt-66b",
+    "title": "OPT-66B",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "Meta's 2022 Open Pretrained Transformer checkpoint; the model card marks the license as non-commercial.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-130B",
+    "title": "GLM-130B",
+    "category": "Landmark open models",
+    "subsection": "Early open weights",
+    "blurb": "Apache-2.0 code repo for the 2022 bilingual 130B model from Tsinghua, published as an ICLR 2023 open bilingual pretrained model.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 8
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.13971",
+    "title": "LLaMA paper",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "The February 2023 paper for Meta's original LLaMA release, whose weights shipped under a non-commercial research license rather than an OSI license.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://github.com/meta-llama/llama",
+    "title": "Llama inference code",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "Meta's inference code for Llama models; it is not a grant to ignore the license on the checkpoint you download.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf",
+    "title": "Llama 2 7B",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "7B base weights under the Llama 2 Community License, a custom license with a monthly-active-user threshold, not Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+    "title": "Llama 3.1 8B",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "8B base model under the Llama 3.1 Community License.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+    "title": "Llama 3.2 1B",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "Small Llama 3.2 text model under the Llama 3.2 license, in a size people actually run on a laptop.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+    "title": "Llama 3.3 70B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "70B instruction model under the Llama 3.3 Community License.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "title": "Llama 4 Scout",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "Multimodal instruct Mixture-of-Experts (17B-16E in the model id) under the Llama 4 license named on the card, not an OSI license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "title": "Llama 4 Maverick",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "Larger-expert Llama 4 multimodal instruct model (17B-128E in the model id), same Llama 4 license family as Scout.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 8
+  },
+  {
+    "url": "https://www.llama.com",
+    "title": "Llama.com",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "Meta's Llama site for current docs and license terms; the page is the place to re-read the grant before you ship.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ],
+    "pin": 9
+  },
+  {
+    "url": "https://github.com/meta-llama/codellama",
+    "title": "Code Llama",
+    "category": "Landmark open models",
+    "subsection": "Meta Llama",
+    "blurb": "Meta's inference repo for Code Llama; weight terms follow the Llama license on the checkpoint, and the repository's last push was 2024-08-12.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ],
+    "pin": 10
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
+    "title": "Mistral 7B",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "Apache-2.0 7B pretrained model whose 2023 release made permissive local weights a default choice rather than a research exception.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1",
+    "title": "Mixtral 8x7B",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "Apache-2.0 sparse mixture-of-experts model, eight experts with two active per token.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+    "title": "Mistral Small 24B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "Apache-2.0 24B instruct model in the size range a single high-memory GPU can hold.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Devstral-Small-2505",
+    "title": "Devstral Small",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "Apache-2.0 coding model in Mistral's Small line.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Magistral-Small-2506",
+    "title": "Magistral Small",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "Apache-2.0 reasoning model in Mistral's Small line.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410",
+    "title": "Ministral 8B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "8B instruct model under the Mistral Research License (MRL-0.1), not Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-Large-3",
+    "title": "Mistral Large 3",
+    "category": "Landmark open models",
+    "subsection": "Mistral",
+    "blurb": "Apache-2.0 multimodal mixture-of-experts instruct model, 675B total and 41B active, with FP8 and NVFP4 checkpoints called out on the card for single-node serving.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen",
+    "title": "Qwen",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 repo for the original Qwen chat and pretrained models from Alibaba Cloud.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen2.5",
+    "title": "Qwen2.5",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Official Qwen2.5 repo; the 7B base weights on Hugging Face are Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B",
+    "title": "Qwen2.5-7B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 dense base model from the Qwen2.5 generation.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+    "title": "Qwen2.5-Coder 32B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 code instruct model that is still a practical local coder.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-8B",
+    "title": "Qwen3-8B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 dense model from the Qwen3 generation.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+    "title": "Qwen3-235B-A22B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 mixture-of-experts Qwen3 model, 235B total with 22B active.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "title": "Qwen3-Coder 480B-A35B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 code instruct mixture-of-experts model, 480B total with 35B active.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+    "title": "Qwen3.5-27B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 vision-language model; the Qwen3.8 repo's news log dates the 27B weights in this generation to 2026-02-24.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "github-repo"
+    ],
+    "pin": 8
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+    "title": "Qwen3.6-27B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 vision-language model in the Qwen3.6 line.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 9
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3.8",
+    "title": "Qwen3.8",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Official repo covering Qwen3.5 through Qwen3.8; the repo is Apache-2.0, while the 2.4T-A95B weights use a separate license named qwen3.8-max.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ],
+    "pin": 10
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "title": "Qwen3.8-27B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "Apache-2.0 27B checkpoint; the project news log dates these weights to 2026-08-14.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "github-repo"
+    ],
+    "pin": 11
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "title": "Qwen3.8-2.4T-A95B",
+    "category": "Landmark open models",
+    "subsection": "Qwen",
+    "blurb": "The large Qwen3.8 checkpoint under the license named qwen3.8-max on the card, which is separate from the Apache-2.0 grant on the 27B weights; the project news log dates it to 2026-08-12.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "github-repo"
+    ],
+    "pin": 12
+  },
+  {
+    "url": "https://github.com/google-deepmind/gemma",
+    "title": "Gemma library",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "Google DeepMind's Apache-2.0 library for running Gemma; the library license is not the license of every Gemma checkpoint.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://huggingface.co/google/gemma-7b",
+    "title": "Gemma 7B",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "First-generation Gemma 7B under the Gemma license, not Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/google/gemma-2-9b",
+    "title": "Gemma 2 9B",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "Gemma 2 9B base model under the Gemma license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/google/gemma-3-27b-it",
+    "title": "Gemma 3 27B IT",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "Multimodal Gemma 3 instruct model under the Gemma license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://huggingface.co/google/gemma-3n-E4B-it",
+    "title": "Gemma 3n E4B",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "Mobile-oriented Gemma 3n checkpoint under the Gemma license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://huggingface.co/google/gemma-4-31b-it",
+    "title": "Gemma 4 31B IT",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "Gemma 4 multimodal instruct model whose card states Apache-2.0, a change from the Gemma terms used on Gemma 1 through 3.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://huggingface.co/google/gemma-4-e4b-it",
+    "title": "Gemma 4 E4B",
+    "category": "Landmark open models",
+    "subsection": "Google Gemma",
+    "blurb": "Smaller Apache-2.0 Gemma 4 model; the family card says the E2B, E4B, and 12B sizes also take audio, unlike the text-and-image-only larger sizes.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-V2",
+    "title": "DeepSeek-V2",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "Mixture-of-experts model that introduced the MLA and DeepSeekMoE designs later reused in V3; the Hugging Face card's license tag is other, so do not assume the V3 MIT grant applies.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "title": "DeepSeek-V3",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "MIT-licensed repo for the 671B mixture-of-experts model (37B activated) with weights on Hugging Face and a public technical report.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "title": "DeepSeek-R1",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "MIT-licensed reasoning-model release trained with large-scale reinforcement learning; the paper is arXiv:2501.12948.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+    "title": "DeepSeek-V3.2",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "MIT-licensed DeepSeek-V3.2 weights on Hugging Face.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "title": "DeepSeek-V4-Pro",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "MIT-licensed V4-Pro weights; the card links the technical report arXiv:2606.19348, and there is no deepseek-ai/DeepSeek-V4 GitHub repository.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "arxiv"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+    "title": "DeepSeek-Coder-V2",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "MIT-licensed code-model repository; the Lite instruct checkpoint on Hugging Face carries a file named deepseek-license, so read that file before redistributing the weights.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Math",
+    "title": "DeepSeek-Math",
+    "category": "Landmark open models",
+    "subsection": "DeepSeek",
+    "blurb": "MIT-licensed math models and the accompanying training code.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://huggingface.co/microsoft/phi-2",
+    "title": "Phi-2",
+    "category": "Landmark open models",
+    "subsection": "Microsoft Phi",
+    "blurb": "MIT-licensed small model from Microsoft's Phi line.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+    "title": "Phi-3-mini-4k-instruct",
+    "category": "Landmark open models",
+    "subsection": "Microsoft Phi",
+    "blurb": "MIT-licensed Phi-3 mini instruct model in the 4k-context variant.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/microsoft/phi-4",
+    "title": "Phi-4",
+    "category": "Landmark open models",
+    "subsection": "Microsoft Phi",
+    "blurb": "MIT-licensed Phi-4 weights.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+    "title": "Phi-4-mini-instruct",
+    "category": "Landmark open models",
+    "subsection": "Microsoft Phi",
+    "blurb": "MIT-licensed smaller Phi-4 instruct model.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://allenai.org/olmo",
+    "title": "OLMo project",
+    "category": "Landmark open models",
+    "subsection": "Allen Institute OLMo",
+    "blurb": "Allen Institute project page for OLMo, the family released with weights, code, and data rather than weights alone.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://github.com/allenai/OLMo",
+    "title": "OLMo",
+    "category": "Landmark open models",
+    "subsection": "Allen Institute OLMo",
+    "blurb": "Apache-2.0 modeling, training, eval, and inference code for the original OLMo release.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://huggingface.co/allenai/OLMo-7B",
+    "title": "OLMo-7B",
+    "category": "Landmark open models",
+    "subsection": "Allen Institute OLMo",
+    "blurb": "Apache-2.0 original OLMo 7B checkpoint.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://huggingface.co/allenai/OLMo-2-1124-7B",
+    "title": "OLMo 2 7B",
+    "category": "Landmark open models",
+    "subsection": "Allen Institute OLMo",
+    "blurb": "Apache-2.0 OLMo 2 7B checkpoint.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://huggingface.co/allenai/OLMo-2-0325-32B",
+    "title": "OLMo 2 32B",
+    "category": "Landmark open models",
+    "subsection": "Allen Institute OLMo",
+    "blurb": "Apache-2.0 OLMo 2 32B checkpoint.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0924",
+    "title": "OLMoE-1B-7B",
+    "category": "Landmark open models",
+    "subsection": "Allen Institute OLMo",
+    "blurb": "Apache-2.0 open mixture-of-experts model, 1B active and 7B total, with the training recipe published alongside the weights.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://github.com/baichuan-inc/Baichuan2",
+    "title": "Baichuan 2",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 code for Baichuan's bilingual models; confirm the weight license on the checkpoint you download.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025",
+    "title": "Command A",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Cohere Command A weights under CC-BY-NC-4.0, which is not a commercial-use license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/CohereForAI/c4ai-command-r-plus",
+    "title": "Command R+",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Command R+ weights under CC-BY-NC-4.0; open weights here means non-commercial.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/tiiuae/falcon-7b",
+    "title": "Falcon-7B",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 7B model from TII; Falcon-180B is a different checkpoint and is not Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/tiiuae/Falcon3-10B-Instruct",
+    "title": "Falcon 3 10B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Instruct model under the Falcon LLM license linked from the card, not Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-4",
+    "title": "GLM-4",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 code repository for the GLM-4 series of multilingual multimodal chat models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/zai-org/GLM-4.5",
+    "title": "GLM-4.5",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "MIT-licensed GLM-4.5 weights aimed at agent, reasoning, and coding use.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-5",
+    "title": "GLM-5",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 repository for GLM-5; its homepage link points at the GLM-5.2 blog post.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/zai-org/GLM-5.2",
+    "title": "GLM-5.2",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "MIT-licensed GLM-5.2 weights; the card points at a newer GLM-5.3 checkpoint published under a license named glm-5.3, not MIT.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/gpt-oss",
+    "title": "gpt-oss",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "OpenAI's Apache-2.0 open-weight models, gpt-oss-120b and gpt-oss-20b, with weights on Hugging Face and a project site at gpt-oss.com.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/ibm-granite/granite-3.1-8b-instruct",
+    "title": "Granite 3.1 8B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "IBM Granite instruct model under Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "title": "Muse Glimmer 30B",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 30B multimodal model from Meta Superintelligence Lab; the card dates the release to August 2026 and describes it as distilled from Muse Spark.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/xai-org/grok-1",
+    "title": "Grok-1",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 weight release of xAI's 314B mixture-of-experts; a research artifact, not a practical local chat model.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+    "title": "Hermes 3 Llama 3.1 8B",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Community finetune whose card is under the Llama 3 license, so the base model's restrictions still apply.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/InternLM/InternLM",
+    "title": "InternLM",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 code for the InternLM series; the internlm2.5 7B chat card checked on ingest uses a non-Apache license tag, so read the checkpoint you download.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/ai21labs/Jamba-v0.1",
+    "title": "Jamba v0.1",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 hybrid Transformer-Mamba model; later Jamba cards use other licenses, and this entry is only v0.1.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+    "title": "Kimi K2 Instruct",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Moonshot's open-weight K2 instruct model under a modified MIT license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+    "title": "Kimi K2.5",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Open-weight visual and agentic Kimi model under a modified MIT license.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-K3",
+    "title": "Kimi K3",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Open-weight 2.8T multimodal mixture-of-experts under the Kimi K3 License, which adds a Model-as-a-Service revenue clause and an attribution clause above 100 million monthly users or 20 million dollars of monthly revenue.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct",
+    "title": "LFM2.5 1.2B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Small Liquid AI instruct model for edge hardware, under the license named lfm1.0 on the card, not Apache-2.0 or MIT.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/state-spaces/mamba",
+    "title": "Mamba",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 implementation of the Mamba state-space architecture used by some open language models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/openbmb/MiniCPM4-8B",
+    "title": "MiniCPM4-8B",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 on-device-oriented model from OpenBMB.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/MiniMax-AI/MiniMax-M1",
+    "title": "MiniMax-M1",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 hybrid-attention reasoning model from MiniMax.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "title": "Nemotron Nano 9B v2",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "NVIDIA's 9B open model under the NVIDIA Open Model License, not Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+    "title": "Nemotron 70B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Llama-3.1-based Nemotron instruct model; the card stays on the Llama 3.1 license.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/BlinkDL/RWKV-LM",
+    "title": "RWKV",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 linear-time RNN language-model line; the repository is at the RWKV-7 generation.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "title": "SmolLM2 1.7B Instruct",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 small instruct model from Hugging Face, sized to run without a datacenter GPU.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+    "title": "SmolLM3 3B",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 3B model with a public training recipe in the SmolLM repository.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/bigcode-project/starcoder2",
+    "title": "StarCoder2",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "BigCode's code-model release; the 15B weights use the BigCode OpenRAIL-M license, which adds use restrictions on top of an open grant.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/stabilityai/stablelm-2-12b",
+    "title": "Stable LM 2 12B",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "12B Stability model whose card sends commercial use to Stability's own license rather than Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/01-ai/Yi-1.5",
+    "title": "Yi-1.5",
+    "category": "Landmark open models",
+    "subsection": "Other families",
+    "blurb": "Apache-2.0 upgrade of 01.AI's Yi models, with the project describing stronger coding, math, reasoning, and instruction following than Yi.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/candle",
+    "title": "candle",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 minimalist ML framework in Rust, with LLM inference examples in-tree.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/turboderp-org/exllamav2",
+    "title": "ExLlamaV2",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "MIT-licensed GPU inference library for running quantized LLMs on consumer NVIDIA cards.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/google/gemma.cpp",
+    "title": "gemma.cpp",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 standalone C++ inference engine for Gemma models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "title": "llama.cpp",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "MIT-licensed C/C++ inference engine and the GGUF ecosystem most local setups are built on; the canonical repo is ggml-org, not the older ggerganov mirror.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/abetlen/llama-cpp-python",
+    "title": "llama-cpp-python",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "MIT-licensed Python bindings for llama.cpp, including an OpenAI-compatible server.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/mozilla-ai/llamafile",
+    "title": "llamafile",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Single-file local LLM runner; the LICENSE text is Apache-2.0 even though GitHub's SPDX field is unset.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/ModelTC/LightLLM",
+    "title": "LightLLM",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 Python serving framework aimed at high-throughput GPU inference.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/InternLM/lmdeploy",
+    "title": "LMDeploy",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 toolkit for compressing, deploying, and serving LLMs, from the InternLM project.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/EricLBuehler/mistral.rs",
+    "title": "mistral.rs",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "MIT-licensed Rust inference engine for LLMs.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/ml-explore/mlx-lm",
+    "title": "MLX-LM",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "MIT-licensed library for running LLMs on Apple silicon through MLX.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/ollama/ollama",
+    "title": "Ollama",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "MIT-licensed local runner and OpenAI-compatible server; the library tag is not a license, so check the upstream model card.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/sgl-project/sglang",
+    "title": "SGLang",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 serving framework for language and multimodal models, used when vLLM-style throughput is the goal.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "title": "TensorRT-LLM",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "NVIDIA's Python and C++ stack for LLM inference on NVIDIA GPUs; the LICENSE text says Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/text-generation-inference",
+    "title": "Text Generation Inference",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Hugging Face's LLM server; the repository is archived.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/transformers",
+    "title": "Transformers",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 model-definition library that both loads open checkpoints for inference and defines them for training.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/vllm-project/vllm",
+    "title": "vLLM",
+    "category": "Runtimes and local serving",
+    "subsection": "Inference engines",
+    "blurb": "Apache-2.0 high-throughput inference and serving engine, and the usual server for large open MoE models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/exo-explore/exo",
+    "title": "exo",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "Apache-2.0 runtime for splitting a model across machines you already have.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/nomic-ai/gpt4all",
+    "title": "GPT4All",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "MIT-licensed desktop app for running local LLMs, including commercial use as stated by the project.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/janhq/jan",
+    "title": "Jan",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "Desktop app for offline chat; the LICENSE file is Apache-2.0 and asks for attribution in user-facing docs.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/LostRuins/koboldcpp",
+    "title": "koboldcpp",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "AGPL-3.0 single-file app that serves GGUF models behind a KoboldAI-compatible UI.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/lmstudio-ai/lms",
+    "title": "LM Studio CLI",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "MIT-licensed command-line tool for LM Studio; the desktop app itself is a separate closed product.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/lmstudio-ai/lmstudio-python",
+    "title": "LM Studio Python SDK",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "MIT-licensed Python SDK for talking to a local LM Studio server.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/mudler/LocalAI",
+    "title": "LocalAI",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "MIT-licensed OpenAI-compatible server for local models across text, vision, and audio.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://ollama.com/library",
+    "title": "Ollama library",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "Ollama's model index; a tag here is a packaging choice, and the weight license is whatever the upstream card says.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://github.com/open-webui/open-webui",
+    "title": "Open WebUI",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "Self-hosted chat UI for Ollama and OpenAI-compatible servers, under a custom license that forbids removing Open WebUI branding above 50 end users.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/oobabooga/textgen",
+    "title": "textgen",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "AGPL-3.0 desktop app from the text-generation-webui author for local text and vision models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/chat-ui",
+    "title": "chat-ui",
+    "category": "Runtimes and local serving",
+    "subsection": "Local apps and front ends",
+    "blurb": "Apache-2.0 codebase behind HuggingChat, self-hostable against an OpenAI-compatible local server.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/BitNet",
+    "title": "BitNet",
+    "category": "Runtimes and local serving",
+    "subsection": "On-device and edge",
+    "blurb": "MIT-licensed official inference framework for 1-bit LLMs.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/pytorch/executorch",
+    "title": "ExecuTorch",
+    "category": "Runtimes and local serving",
+    "subsection": "On-device and edge",
+    "blurb": "PyTorch runtime for on-device inference across mobile and embedded; read the repo license file, which GitHub does not map to an SPDX id.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/LlamaEdge/LlamaEdge",
+    "title": "LlamaEdge",
+    "category": "Runtimes and local serving",
+    "subsection": "On-device and edge",
+    "blurb": "Apache-2.0 path for running LLMs as WasmEdge applications on a local machine or at the edge.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/mlc-ai/mlc-llm",
+    "title": "MLC LLM",
+    "category": "Runtimes and local serving",
+    "subsection": "On-device and edge",
+    "blurb": "Apache-2.0 compiler stack for deploying LLMs onto phones, browsers, and other edge targets.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/Blaizzy/mlx-vlm",
+    "title": "MLX-VLM",
+    "category": "Runtimes and local serving",
+    "subsection": "On-device and edge",
+    "blurb": "MIT-licensed inference and finetune package for vision-language models on Apple silicon.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/mlc-ai/web-llm",
+    "title": "WebLLM",
+    "category": "Runtimes and local serving",
+    "subsection": "On-device and edge",
+    "blurb": "Apache-2.0 in-browser LLM engine; the model still has to be an open checkpoint the runtime can fetch.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/alignment-handbook",
+    "title": "Alignment Handbook",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 recipes from Hugging Face for aligning models with human and AI preferences.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "title": "Axolotl",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 finetune framework configured by YAML, widely used for QLoRA and full finetunes of open checkpoints.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+    "title": "bitsandbytes",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "MIT-licensed k-bit quantization used to finetune and load large models on smaller GPUs.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/hiyouga/LlamaFactory",
+    "title": "LLaMA-Factory",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 web UI and CLI for finetuning open LLMs and vision-language models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/Lightning-AI/litgpt",
+    "title": "LitGPT",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 recipes to pretrain, finetune, and serve a set of open LLM implementations.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/modelscope/ms-swift",
+    "title": "ms-swift",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 finetune toolkit covering CPT, SFT, DPO, and GRPO across hundreds of open models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/open-instruct",
+    "title": "open-instruct",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 post-training codebase from the Allen Institute, used for the Tülu line.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/peft",
+    "title": "PEFT",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 parameter-efficient finetuning, including LoRA, on top of Transformers.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/meta-pytorch/torchtune",
+    "title": "torchtune",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "BSD-3-Clause PyTorch-native post-training library, now under the meta-pytorch org.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/trl",
+    "title": "TRL",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 library for SFT, DPO, PPO, and GRPO on transformer language models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/unslothai/unsloth",
+    "title": "Unsloth",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 library and local UI for faster finetuning of open LLMs, including the 2026 open-weight families the README names.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/vllm-project/llm-compressor",
+    "title": "llm-compressor",
+    "category": "Training, finetune and alignment",
+    "subsection": "Finetune and post-training",
+    "blurb": "Apache-2.0 compression library for producing checkpoints that vLLM can serve.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/mosaicml/composer",
+    "title": "Composer",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 training library from Mosaic, used under llm-foundry.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/hpcaitech/ColossalAI",
+    "title": "ColossalAI",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 parallel-training library aimed at making large models cheaper to train.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/deepspeedai/DeepSpeed",
+    "title": "DeepSpeed",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 optimization library for distributed training and inference; the maintained org is deepspeedai.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/EleutherAI/gpt-neox",
+    "title": "GPT-NeoX",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 training stack EleutherAI used for GPT-NeoX and Pythia, built on Megatron and DeepSpeed.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/facebookresearch/lingua",
+    "title": "Lingua",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "BSD-3-Clause research codebase from Meta for training LLMs without a framework-sized dependency tree.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/karpathy/llm.c",
+    "title": "llm.c",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "MIT-licensed training implementation in C and CUDA, written to show the algorithm without a framework.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/mosaicml/llm-foundry",
+    "title": "llm-foundry",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 training code Databricks used for its open foundation models, including the DBRX-era stack.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/AI-Hypercomputer/maxtext",
+    "title": "MaxText",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 JAX stack for training LLMs on Google Cloud TPUs and GPUs.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "title": "Megatron-LM",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "NVIDIA's research codebase for training transformers with model parallelism.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/karpathy/nanochat",
+    "title": "nanochat",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "MIT-licensed end-to-end training of a small ChatGPT-style model on a budget the README puts around 100 dollars.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/karpathy/nanoGPT",
+    "title": "nanoGPT",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "MIT-licensed minimal GPT trainer, still the clearest place to read a training loop.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/nanotron",
+    "title": "nanotron",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 minimal 3D-parallel training code from Hugging Face.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/OLMo-core",
+    "title": "OLMo-core",
+    "category": "Training, finetune and alignment",
+    "subsection": "Pretraining",
+    "blurb": "Apache-2.0 PyTorch training library for the current OLMo stack.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/argilla-io/argilla",
+    "title": "Argilla",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 tool for humans and engineers to review and label data used in alignment.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/datatrove",
+    "title": "datatrove",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 data-processing pipelines for large text corpora.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/argilla-io/distilabel",
+    "title": "distilabel",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 framework for synthetic data and AI feedback pipelines.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/NVIDIA-NeMo/Curator",
+    "title": "NeMo Curator",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 data curation toolkit for LLM pretraining corpora.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/open-r1",
+    "title": "Open R1",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 effort to reproduce DeepSeek-R1 with public data and training code.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/OpenRLHF/OpenRLHF",
+    "title": "OpenRLHF",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 RLHF and agentic-RL framework built on Ray and vLLM.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/open-thoughts/open-thoughts",
+    "title": "OpenThoughts",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 open data-curation effort for reasoning models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/CarperAI/trlx",
+    "title": "TRLX",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "MIT-licensed earlier distributed RLHF library; new work has mostly moved to TRL and OpenRLHF, and the repo is quiet.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/PrimeIntellect-ai/verifiers",
+    "title": "verifiers",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "MIT-licensed library of RL environments and evals from Prime Intellect.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/verl-project/verl",
+    "title": "verl",
+    "category": "Training, finetune and alignment",
+    "subsection": "Preference, RL and data",
+    "blurb": "Apache-2.0 reinforcement-learning post-training framework, the maintained home of the HybridFlow codebase.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/Aider-AI/aider",
+    "title": "Aider",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 terminal pair-programmer that can talk to a local OpenAI-compatible server as well as hosted APIs.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/browser-use/browser-use",
+    "title": "browser-use",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "MIT-licensed browser agent; point it at an open model through an OpenAI-compatible endpoint if you do not want a hosted model.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/cline/cline",
+    "title": "Cline",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 coding agent shipped as an SDK, IDE extension, or CLI, able to use local models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/continuedev/continue",
+    "title": "Continue",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 coding agent with first-class config for local OpenAI-compatible backends.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/aaif-goose/goose",
+    "title": "goose",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 extensible agent that installs, edits, and runs code against any LLM, including local ones.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/MoonshotAI/kimi-code",
+    "title": "Kimi Code",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "MIT-licensed terminal coding agent from Moonshot; it is an agent harness, not the Kimi K3 weights.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands",
+    "title": "OpenHands",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "MIT-licensed software-engineering agent, the project formerly called OpenDevin, that can run against open models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode",
+    "title": "OpenCode",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "MIT-licensed terminal coding agent.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen-Agent",
+    "title": "Qwen-Agent",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 agent framework for Qwen models, including function calling, code interpreter, RAG, and MCP.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/QwenLM/qwen-code",
+    "title": "Qwen Code",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 terminal coding agent from the Qwen team.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/SWE-agent/SWE-agent",
+    "title": "SWE-agent",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "MIT-licensed agent that takes a GitHub issue and tries to patch it with a language model of your choice.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/TabbyML/tabby",
+    "title": "Tabby",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Self-hosted coding assistant; code outside the ee directory is Apache-2.0, and ee has a separate license.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/bytedance/UI-TARS",
+    "title": "UI-TARS",
+    "category": "Use cases",
+    "subsection": "Agents and coding",
+    "blurb": "Apache-2.0 desktop and GUI agent stack from ByteDance, built to drive native interfaces.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "title": "AnythingLLM",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "MIT-licensed local-first app for chatting with your documents against a local model.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/chroma-core/chroma",
+    "title": "Chroma",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Apache-2.0 embedding store used as the retrieval layer under local RAG apps.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/langgenius/dify",
+    "title": "Dify",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Workflow and RAG studio you can self-host and point at open models; the GitHub license field is unset, so read LICENSE before you embed it.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/deepset-ai/haystack",
+    "title": "Haystack",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Apache-2.0 framework for retrieval pipelines and agents, with explicit control over which model generates.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/run-llama/llama_index",
+    "title": "LlamaIndex",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "MIT-licensed document-processing and retrieval library that sits in front of whatever model you serve.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/zylon-ai/private-gpt",
+    "title": "PrivateGPT",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Apache-2.0 API for private RAG over local, OpenAI-compatible inference servers.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/qdrant/qdrant",
+    "title": "Qdrant",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Apache-2.0 vector database commonly paired with local embedding and chat models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow",
+    "title": "RAGFlow",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Apache-2.0 RAG engine with document parsing, meant to sit in front of an LLM you choose.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/sentence-transformers",
+    "title": "sentence-transformers",
+    "category": "Use cases",
+    "subsection": "RAG and knowledge",
+    "blurb": "Apache-2.0 library for open embedding and reranker models, which is the retrieval half of a local RAG stack.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/SillyTavern/SillyTavern",
+    "title": "SillyTavern",
+    "category": "Use cases",
+    "subsection": "Creative and local chat",
+    "blurb": "AGPL-3.0 front end for roleplay and long-context chat, almost always pointed at a local model such as llama.cpp or Ollama.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/speech-to-speech",
+    "title": "speech-to-speech",
+    "category": "Use cases",
+    "subsection": "Voice",
+    "blurb": "Apache-2.0 pipeline for voice agents built from open speech and language models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/kyutai-labs/moshi",
+    "title": "Moshi",
+    "category": "Use cases",
+    "subsection": "Voice",
+    "blurb": "Apache-2.0 full-duplex speech-text model and streaming audio codec from Kyutai.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/fixie-ai/ultravox",
+    "title": "Ultravox",
+    "category": "Use cases",
+    "subsection": "Voice",
+    "blurb": "MIT-licensed multimodal model for real-time voice, with weights published for local use.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/stanfordnlp/dspy",
+    "title": "DSPy",
+    "category": "Use cases",
+    "subsection": "Structured output",
+    "blurb": "MIT-licensed framework for programming language models with typed modules instead of one-off prompts, including local backends.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/guidance-ai/guidance",
+    "title": "Guidance",
+    "category": "Use cases",
+    "subsection": "Structured output",
+    "blurb": "MIT-licensed language for constraining generation, including against local models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/dottxt-ai/outlines",
+    "title": "Outlines",
+    "category": "Use cases",
+    "subsection": "Structured output",
+    "blurb": "Apache-2.0 structured-generation library.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/mlc-ai/xgrammar",
+    "title": "XGrammar",
+    "category": "Use cases",
+    "subsection": "Structured output",
+    "blurb": "Apache-2.0 grammar-constrained decoding engine used by serving stacks such as vLLM.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://tatsu-lab.github.io/alpaca_eval",
+    "title": "AlpacaEval",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Automatic evaluator for instruction following; cheap and widely cited, and not a substitute for a held-out task you care about.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/lmarena/arena-hard-auto",
+    "title": "Arena-Hard-Auto",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Apache-2.0 automatic benchmark built to approximate LMSYS-style arena judgments.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://artificialanalysis.ai",
+    "title": "Artificial Analysis",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Independent site that reports quality, speed, and price, with an open-weight slice; treat any rank as a snapshot.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+    "title": "Berkeley Function-Calling Leaderboard",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Leaderboard for tool and function calling, which is the failure mode that matters for open models used as agents.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://crfm.stanford.edu/helm",
+    "title": "HELM",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Stanford CRFM's holistic evaluation site for foundation models; the harness itself is the separate Apache-2.0 repository stanford-crfm/helm.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/lighteval",
+    "title": "LightEval",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "MIT-licensed evaluation toolkit from Hugging Face that runs the same tasks across several inference backends.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/LiveCodeBench/LiveCodeBench",
+    "title": "LiveCodeBench",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "MIT-licensed contamination-resistant coding benchmark; the site is livecodebench.github.io.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://livebench.ai",
+    "title": "LiveBench",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Contamination-resistant benchmark with frequently refreshed questions.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "title": "lm-evaluation-harness",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "MIT-licensed few-shot evaluation harness behind a large share of open-model benchmark tables.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://lmarena.ai",
+    "title": "LM Arena",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Blind pairwise chat arena; open and closed models share the board, so filter to open weights before quoting a rank.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/olmes",
+    "title": "OLMES",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Apache-2.0 evaluation setup the Allen Institute uses for reproducible OLMo numbers.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+    "title": "Open LLM Leaderboard",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Hugging Face space that ranked open models on a fixed harness; confirm it is still updating before you cite a position.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/open-compass/opencompass",
+    "title": "OpenCompass",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Apache-2.0 evaluation platform covering knowledge, reasoning, coding, and long context, with many open-model backends.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/reward-bench",
+    "title": "RewardBench",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Apache-2.0 benchmark for reward models, which is the piece open preference-tuning actually depends on.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/simple-evals",
+    "title": "simple-evals",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "MIT-licensed small eval suite OpenAI published, useful as a shared script rather than as a leaderboard.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://www.swebench.com",
+    "title": "SWE-bench",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards and harnesses",
+    "blurb": "Benchmark of real GitHub issues; the MIT-licensed harness is SWE-bench/SWE-bench, and the score depends on the agent as well as the model.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.05100",
+    "title": "BLOOM paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "BigScience report on training the 176B BLOOM model in the open.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.01068",
+    "title": "OPT paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Meta's paper on the Open Pretrained Transformer models and what they released.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.18290",
+    "title": "Direct Preference Optimization",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "The DPO paper, which is the method most open preference-tuning recipes still implement.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.09288",
+    "title": "Llama 2 paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Meta's paper on Llama 2, including the custom license and the safety finetune, separate from the original non-commercial LLaMA release.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.06825",
+    "title": "Mistral 7B paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Technical report for the Apache-2.0 Mistral 7B model.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 5
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.00838",
+    "title": "OLMo paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Allen Institute paper on releasing a competitive model together with its training data and code.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.17557",
+    "title": "FineWeb paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Hugging Face paper on filtering web data into the FineWeb and FineWeb-Edu corpora.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 7
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.21783",
+    "title": "Llama 3 paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Meta's herd paper for Llama 3, covering the models released under the Llama 3 community licenses.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 8
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.15115",
+    "title": "Qwen2.5 technical report",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Alibaba's technical report for the Qwen2.5 family.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 9
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.19437",
+    "title": "DeepSeek-V3 technical report",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Technical report for DeepSeek-V3, including the auxiliary-loss-free load balancer and multi-token prediction.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 10
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.12948",
+    "title": "DeepSeek-R1 paper",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Paper on training DeepSeek-R1's reasoning behavior with reinforcement learning, and on the distilled open checkpoints.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "consulted-index"
+    ],
+    "pin": 11
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.19348",
+    "title": "DeepSeek-V4 technical report",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Technical report linked from the MIT-licensed DeepSeek-V4-Pro model card.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "huggingface-model-card"
+    ],
+    "pin": 12
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.02770",
+    "title": "Gemma 4 technical report",
+    "category": "Evals and papers",
+    "subsection": "Papers",
+    "blurb": "Technical report linked from the Apache-2.0 Gemma 4 model cards.",
+    "sources": [
+      "checked-2026-09-22",
+      "arxiv",
+      "huggingface-model-card"
+    ],
+    "pin": 13
+  },
+  {
+    "url": "https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0",
+    "title": "DCLM baseline",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "DataComp for Language Models baseline corpus, CC-BY-4.0 on the Hub card.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/allenai/dolma",
+    "title": "Dolma",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Allen Institute pretraining corpus released with OLMo, under ODC-By.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+    "title": "FineWeb",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Hugging Face web-text corpus under ODC-By, built to be a cleaner Common-Crawl-derived pretraining set.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
+    "title": "FineWeb-Edu",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Educational subset of FineWeb, also ODC-By, used heavily for small open models.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/BAAI/Infinity-Instruct",
+    "title": "Infinity-Instruct",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Instruction mixture from BAAI under CC-BY-SA-4.0, which is share-alike and not the same as Apache-2.0.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T",
+    "title": "RedPajama-1T",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Together's open reproduction of a LLaMA-style pretraining mix; the Hub API did not return a SPDX id, so read the dataset card before redistributing.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/HuggingFaceTB/smoltalk",
+    "title": "SmolTalk",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Supervised-finetune mixture published with the SmolLM line; the Hub API did not return a SPDX id on ingest, so read the card.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+    "title": "The Stack v2",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "BigCode's code pretraining corpus with per-file license metadata; the dataset license tag is other, not a blanket Apache grant.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/EleutherAI/pile",
+    "title": "The Pile",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "EleutherAI's pretraining corpus; the Hub license is other, and the original full dump is not something you should assume is still redistributable.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/allenai/tulu-3-sft-mixture",
+    "title": "Tülu 3 SFT mixture",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "Allen Institute supervised-finetune mixture for Tülu 3, under ODC-By.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+    "title": "UltraChat 200k",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "MIT-licensed multi-turn dialogue set used in many open chat finetunes.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/openbmb/UltraFeedback",
+    "title": "UltraFeedback",
+    "category": "Datasets",
+    "subsection": "",
+    "blurb": "MIT-licensed preference dataset used to train reward models and DPO mixes.",
+    "sources": [
+      "checked-2026-09-22",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://www.eleuther.ai",
+    "title": "EleutherAI",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Home of the lab behind GPT-NeoX, Pythia, and the evaluation harness.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://gpt-oss.com",
+    "title": "gpt-oss.com",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Project site linked from the Apache-2.0 gpt-oss model card.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "huggingface-model-card"
+    ]
+  },
+  {
+    "url": "https://ai.google.dev/gemma/docs/core",
+    "title": "Gemma docs",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Google's current Gemma documentation, including the pointer from Gemma 4 cards to the Apache-2.0 grant.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "title": "Hugging Face LLM course",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Free course that walks from Transformer basics through the Hub, finetuning, and evaluation.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://github.com/mlabonne/llm-course",
+    "title": "LLM course",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Apache-2.0 roadmap and notebooks for learning LLMs, with an emphasis on open models.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen3",
+    "title": "Qwen3 blog",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Qwen team's blog post introducing the Qwen3 generation.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://jalammar.github.io/illustrated-transformer",
+    "title": "The Illustrated Transformer",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Jay Alammar's visual walkthrough of the Transformer, still the best single explanation of the architecture these models share.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/smollm",
+    "title": "SmolLM repo",
+    "category": "Docs and essays",
+    "subsection": "",
+    "blurb": "Apache-2.0 home for the SmolLM and SmolVLM families, including the training recipes the model cards point at.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/Hannibal046/Awesome-LLM",
+    "title": "Awesome-LLM",
+    "category": "Awesome lists and indexes",
+    "subsection": "",
+    "blurb": "Broad CC0 list of LLM papers, training frameworks, and tools; last pushed 2025-07-31, and not limited to open weights.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://github.com/bilalonur/awesome-llm-os",
+    "title": "awesome-llm-os",
+    "category": "Awesome lists and indexes",
+    "subsection": "",
+    "blurb": "CC0 list of LLM-as-operating-system projects; a different topic from this catalog, listed so the two are not merged.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+    "title": "awesome-deepseek-integration",
+    "category": "Awesome lists and indexes",
+    "subsection": "",
+    "blurb": "DeepSeek's own list of integrations; useful for apps, not a substitute for the model license.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://github.com/eugeneyan/open-llms",
+    "title": "open-llms",
+    "category": "Awesome lists and indexes",
+    "subsection": "",
+    "blurb": "Apache-2.0 short list of open LLMs the author marks as available for commercial use; last pushed 2025-02-13, so re-check anything it recommends.",
+    "sources": [
+      "checked-2026-09-22",
+      "github-repo",
+      "consulted-index"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/collections/Qwen/qwen38",
+    "title": "Qwen3.8 collection",
+    "category": "Awesome lists and indexes",
+    "subsection": "",
+    "blurb": "Hugging Face collection the Qwen3.8 README points at for the 27B and 2.4T-A95B weights.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page",
+      "github-repo"
+    ]
+  },
+  {
+    "url": "https://discord.gg/eleutherai",
+    "title": "EleutherAI Discord",
+    "category": "Community",
+    "subsection": "",
+    "blurb": "Discord invite for the EleutherAI community.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://huggingface.co",
+    "title": "Hugging Face",
+    "category": "Community",
+    "subsection": "",
+    "blurb": "Hub, forums, and model cards where open-weight releases are actually posted.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA",
+    "title": "r/LocalLLaMA",
+    "category": "Community",
+    "subsection": "",
+    "blurb": "The main public forum for running open weights locally; an automated fetch from this ingest was blocked by Reddit, and the subreddit itself is long-standing.",
+    "sources": [
+      "checked-2026-09-22",
+      "project-page"
+    ]
+  }
+]

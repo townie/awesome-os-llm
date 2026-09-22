@@ -1,0 +1,51 @@
+unique_links 247
+
+by_category
+Landmark open models 92
+Runtimes and local serving 33
+Training, finetune and alignment 35
+Use cases 30
+Evals and papers 29
+Datasets 12
+Docs and essays 8
+Awesome lists and indexes 5
+Community 3
+
+by_subsection
+Landmark open models / Early open weights 8
+Landmark open models / Meta Llama 10
+Landmark open models / Mistral 7
+Landmark open models / Qwen 12
+Landmark open models / Google Gemma 7
+Landmark open models / DeepSeek 7
+Landmark open models / Microsoft Phi 4
+Landmark open models / Allen Institute OLMo 6
+Landmark open models / Other families 31
+Runtimes and local serving / Inference engines 16
+Runtimes and local serving / Local apps and front ends 11
+Runtimes and local serving / On-device and edge 6
+Training, finetune and alignment / Finetune and post-training 12
+Training, finetune and alignment / Pretraining 13
+Training, finetune and alignment / Preference, RL and data 10
+Use cases / Agents and coding 13
+Use cases / RAG and knowledge 9
+Use cases / Creative and local chat 1
+Use cases / Voice 3
+Use cases / Structured output 4
+Evals and papers / Leaderboards and harnesses 16
+Evals and papers / Papers 13
+Datasets / (none) 12
+Docs and essays / (none) 8
+Awesome lists and indexes / (none) 5
+Community / (none) 3
+
+by_source_appearance_count
+# a link counted once per source tag on that entry
+checked-2026-09-22 247
+github-repo 148
+huggingface-model-card 83
+consulted-index 67
+project-page 21
+arxiv 15
+
+json_count_matches_unique True
