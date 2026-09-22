@@ -1,0 +1,54 @@
+unique_links	284
+
+by_category
+Landmark open models	98
+Use cases	42
+Runtimes and local serving	33
+Training, finetune and alignment	39
+Evals and papers	37
+Docs and essays	11
+Datasets	14
+Awesome lists and indexes	6
+Community	4
+
+by_subsection
+Landmark open models / Early open weights	10
+Landmark open models / Llama	8
+Landmark open models / Mistral	11
+Landmark open models / Qwen	11
+Landmark open models / Gemma	8
+Landmark open models / DeepSeek	9
+Landmark open models / Fully open model flows	7
+Landmark open models / Permissive open weights	16
+Landmark open models / Open weights, restricted licenses	18
+Use cases / Agents	11
+Use cases / Coding	7
+Use cases / RAG and knowledge	11
+Use cases / Creative and local chat	3
+Use cases / On-device apps	3
+Use cases / Research tools	7
+Runtimes and local serving / Inference engines	15
+Runtimes and local serving / Local apps and front ends	12
+Runtimes and local serving / Edge and in-browser	6
+Training, finetune and alignment / Pretraining stacks	14
+Training, finetune and alignment / Finetune and alignment	19
+Training, finetune and alignment / Kernels and efficiency	6
+Evals and papers / Leaderboards	14
+Evals and papers / Harnesses	4
+Evals and papers / Papers	19
+Docs and essays / (none)	11
+Datasets / Pretraining data	8
+Datasets / Post-training data	5
+Datasets / Data tools	1
+Awesome lists and indexes / (none)	6
+Community / (none)	4
+
+by_source_appearance_count
+# a link counted once per source tag
+seed-manual	284
+hf-api	51
+vendor-pages	29
+konishi-timeline	9
+grok-readme	1
+
+json_count_matches_unique	True
