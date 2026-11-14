@@ -2328,6 +2328,16 @@
     ]
   },
   {
+    "url": "https://aihot.news/leaderboard",
+    "title": "AIHOT Model Leaderboard",
+    "category": "Evals and papers",
+    "subsection": "Leaderboards",
+    "blurb": "Chinese-language comparison of open-weight and proprietary models using independently measured public benchmarks across reasoning, coding, and other tasks.",
+    "sources": [
+      "seed-manual"
+    ]
+  },
+  {
     "url": "https://artificialanalysis.ai/",
     "title": "Artificial Analysis",
     "category": "Evals and papers",
