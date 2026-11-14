@@ -17,7 +17,7 @@ The public record is older than the 2023 Llama moment, and this list does not in
 
 Deduplicated by normalized URL (trailing slash, `www.`, query, and fragment stripped).
 
-**284 unique links** · Ingested **2026-09-22 PT** · License for this compilation: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (linked projects keep their own licenses).
+**285 unique links** · Ingested **2026-09-22 PT** · License for this compilation: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (linked projects keep their own licenses).
 
 ### Start here
 
@@ -56,8 +56,8 @@ Deduplicated by normalized URL (trailing slash, `www.`, query, and fragment stri
   - [Pretraining stacks](#pretraining-stacks) (14)
   - [Finetune and alignment](#finetune-and-alignment) (19)
   - [Kernels and efficiency](#kernels-and-efficiency) (6)
-- [Evals and papers](#evals-and-papers) (37)
-  - [Leaderboards](#leaderboards) (14)
+- [Evals and papers](#evals-and-papers) (38)
+  - [Leaderboards](#leaderboards) (15)
   - [Harnesses](#harnesses) (4)
   - [Papers](#papers) (19)
 - [Docs and essays](#docs-and-essays) (11)
@@ -368,6 +368,7 @@ Boards, harnesses, and papers that are actually used to compare open models. Sco
 
 ### Leaderboards
 
+- [AIHOT Model Leaderboard](https://aihot.news/leaderboard) — Chinese-language comparison of open-weight and proprietary models using independently measured public benchmarks across reasoning, coding, and other tasks.
 - [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) — Automatic instruction-following eval. Cheap and gameable; useful as a regression check, not as a ranking of record.
 - [Arena](https://arena.ai/) — Blind human-preference leaderboard. The lmarena.ai URL redirects here. Open and closed models share the board; read the license column before treating a rank as an open-weight result.
 - [Arena leaderboard Space](https://huggingface.co/spaces/lmarena-ai/arena-leaderboard) — Hugging Face Space for the Arena board. The older chatbot-arena-leaderboard path redirects here.

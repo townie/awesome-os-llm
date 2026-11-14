@@ -1,11 +1,11 @@
-unique_links	284
+unique_links	285
 
 by_category
 Landmark open models	98
 Use cases	42
 Runtimes and local serving	33
 Training, finetune and alignment	39
-Evals and papers	37
+Evals and papers	38
 Docs and essays	11
 Datasets	14
 Awesome lists and indexes	6
@@ -33,7 +33,7 @@ Runtimes and local serving / Edge and in-browser	6
 Training, finetune and alignment / Pretraining stacks	14
 Training, finetune and alignment / Finetune and alignment	19
 Training, finetune and alignment / Kernels and efficiency	6
-Evals and papers / Leaderboards	14
+Evals and papers / Leaderboards	15
 Evals and papers / Harnesses	4
 Evals and papers / Papers	19
 Docs and essays / (none)	11
@@ -45,7 +45,7 @@ Community / (none)	4
 
 by_source_appearance_count
 # a link counted once per source tag
-seed-manual	284
+seed-manual	285
 hf-api	51
 vendor-pages	29
 konishi-timeline	9
